@@ -1,0 +1,6 @@
+FROM python:3
+ADD mac_address_look_srishti.py /
+
+RUN pip install requests==2.22.0
+
+CMD [ "python", "./mac_address_look_srishti.py" ]
